@@ -1,0 +1,31 @@
+extends ../layaout/index
+block slider 
+     .slider   
+          h1 Rio de Janeiro
+          em aventura
+block contenido 
+     main.container.mt-5
+          h2.text-center.mb-5 Sobre Nosotros
+          .row.mb-5
+               .col-md-6
+                    p elementum ex non arcu venenatis, commodo rutrum ligula ultrices. Sed dignissim ipsum vehicula blandit ultrices. Integer tristique risus id sem fermentum semper.
+
+                    p Nunc tincidunt lacinia mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus eget urna ultrices molestie. Ut hendrerit porttitor aliquam. 
+              
+               .col-md-6
+                    img(src='/img/inicio_nosotros.jpg',class="img-fluid")
+          h2.text-center.mb-5 Proximos Viajes
+          include ../layaout/partials/viajes
+
+     .descuento 
+          .container
+               .row
+                    .col-md-6
+                         .contenido
+                              h3 5% de Descuento
+                              p.titulo Viaje a Canada
+                              p.fecha 20 de Marzo 2020 - 28 de Marzo de 2020
+                              P.precio $2,500 USD
+     .container
+          h2.text-center.my-5 Testimoniales
+          include ../layaout/partials/testimoniales
