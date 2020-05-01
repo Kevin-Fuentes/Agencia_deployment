@@ -19,5 +19,5 @@ exports.consultasHomepage = async (req, res) => {
         testimoniales
       })
     
-    .catch((error) => console.log(error));
+  
 };

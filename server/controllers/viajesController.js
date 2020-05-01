@@ -4,7 +4,7 @@ exports.mostrarViajes =async  (req, res) => {
 
   res.render("viajes", { pagina: "Proximos Viajes", viajes })
     
-    .catch((error) => console.log(error));
+  
 };
 
 exports.mostrarViaje = async (req, res) => {

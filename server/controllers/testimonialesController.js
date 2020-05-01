@@ -35,7 +35,7 @@ testimoniales})
 
 
        }else{
-  const crear = await Testimoniales.create({
+  const crear = Testimoniales.create({
       nombre,
       correo,
       mensaje
